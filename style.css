@@ -1,0 +1,17 @@
+.background {
+    text-align: center;
+    background-image:url(IMG_8920.JPEG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background2 {
+    text-align: center;
+    background-image:url(IMG_2264.JPEG);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+}

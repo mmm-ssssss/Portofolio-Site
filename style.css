@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .background {
     text-align: center;
     background-image:url(IMG_8920.JPEG);
@@ -7,11 +12,85 @@
     background-repeat: no-repeat;
 }
 
-.background2 {
+.header {
+    width: 100%;
+    text-align: right;
+    margin-top: 10px;
+    position: fixed;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: tan;
+    margin: 0 1% 0 1%;
+    font-size: 20px;
+}
+
+.main {
+    height: 100vh;
+}
+
+
+
+.mainVisual {
+    padding-top: 15vh;
+    font-size: 2.5rem;
+}
+
+section {
+    margin: 0 10% 0 10%;
+    padding-top: 5vh;
+    width: 80%;
+    background-color: lightgray;
     text-align: center;
-    background-image:url(IMG_2264.JPEG);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: right;
-    background-repeat: no-repeat;
+    margin-bottom: 10vh;
+    border-radius: 40px;
+}
+
+section h2 {
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+
+img {
+    width: 70%;
+}
+
+.text {
+    padding: 2% 15% 10% 15%;
+    width: 70%;
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    margin-top: 50vh;
+    padding: 5vh 0 5vh 0;
+    text-align: center;
+}
+
+.fotterWrapper {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 0 5% 0 5%;
+}
+
+.fotterWrapper a {
+    margin: 0 10% 0 10%;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width:770px) {
+    .background {
+        background-image:url(IMG_0420.JPEG);
+    }
+
+    section {
+        margin: 0 22% 0 22%;
+        width: 56%;
+        background-color: lightgray;
+        margin-bottom: 10vh;
+    }
+
 }

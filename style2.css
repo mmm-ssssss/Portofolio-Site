@@ -10,7 +10,6 @@
 .background::before {
     background-image:url(IMG_2264.JPEG);
     background-size: cover;
-    background-attachment: fixed;
     background-position: right;
     background-repeat: no-repeat;
     content: "";

@@ -10,6 +10,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    -webkit-appearance: none;
 }
 
 .header {
@@ -84,6 +85,7 @@ footer {
 @media screen and (min-width:770px) {
     .background {
         background-image:url(IMG_0420.JPEG);
+        -webkit-appearance: none;
     }
 
     .headerLink {

@@ -5,12 +5,23 @@
 
 .background {
     text-align: center;
+}
+
+.background::before {
+
     background-image:url(IMG_8920.JPEG);
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-appearance: none;
+
+    content: "";
+
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
 }
 
 .header {
@@ -83,9 +94,8 @@ footer {
 }
 
 @media screen and (min-width:770px) {
-    .background {
+    .background::before {
         background-image:url(IMG_0420.JPEG);
-        -webkit-appearance: none;
     }
 
     .headerLink {

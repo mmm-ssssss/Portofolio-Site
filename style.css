@@ -86,6 +86,10 @@ footer {
         background-image:url(IMG_0420.JPEG);
     }
 
+    .headerLink {
+        font-size: 30px;
+    }
+
     section {
         margin: 0 22% 0 22%;
         width: 56%;
